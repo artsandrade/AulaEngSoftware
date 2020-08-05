@@ -20,7 +20,6 @@ public class ComissaoCalculo {
         comissao.setComissao(porcentagem.calcularComissao(comissao.getValor(), comissao.getQntVendas()));
         
         System.out.println("");
-        System.out.println("RELATÓRIO DE COMISSÕES");
         System.out.println("Valor das vendas: R$ " + comissao.getValor());
         System.out.println("Quantidade de vendas: " + comissao.getQntVendas());
         System.out.println("Valor das comissões: R$ " + comissao.getComissao());
